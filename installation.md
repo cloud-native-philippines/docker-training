@@ -1,5 +1,10 @@
-Installation
+# Installation
 
+## Mac OS
+
+Download and install using Docker for Mac: https://docs.docker.com/docker-for-mac/install/
+
+## Ubuntu
 
 ```
 # Update the apt package index
