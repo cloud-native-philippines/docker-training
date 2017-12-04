@@ -1,8 +1,5 @@
 ```
 # Update the apt package index
-```
-
-```
 sudo apt-get update
 
 # Install packages to allow apt to use a repository over HTTPS
