@@ -2,9 +2,11 @@
 
 ## Mac OS
 
-Download and install using Docker for Mac: https://docs.docker.com/docker-for-mac/install/
+Download and install using Docker for Mac: [https://docs.docker.com/docker-for-mac/install/](https://docs.docker.com/docker-for-mac/install/)
 
 ## Ubuntu
+
+Follow the instructions at https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/\#install-docker-ce
 
 ```
 # Update the apt package index
