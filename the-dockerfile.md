@@ -28,9 +28,7 @@ $ docker run first
 / #
 ```
 
-## The RUN command
-
-
+## The RUN and PWD commands
 
 
 
