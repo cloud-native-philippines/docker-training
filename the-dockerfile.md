@@ -24,11 +24,21 @@ Successfully tagged first:latest
 We can now use our image
 
 ```
-$ docker run first
+$ docker run -it first
 / #
 ```
 
 ## The RUN and PWD commands
 
+Let's add some more commands to our Dockerfile
 
+```
+FROM alpine:3.7
+
+RUN mkdir /usr/src
+
+PWD /usr/src
+```
+
+As before, build it with `docker build -t first .` and then run it using `docker run first`
 
