@@ -1,6 +1,6 @@
 # The Dockerfile
 
-Your first Dockerfile
+## Your first Dockerfile
 
 ```
 FROM alpine:3.7
@@ -28,7 +28,9 @@ $ docker run first
 / #
 ```
 
-## Thre
+## The RUN command
+
+
 
 
 
