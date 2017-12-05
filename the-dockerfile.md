@@ -28,7 +28,7 @@ $ docker run -it first
 / #
 ```
 
-## The RUN and PWD commands
+## The RUN and WORKDIR commands
 
 Let's add some more commands to our Dockerfile
 
@@ -37,10 +37,10 @@ FROM alpine:3.7
 
 RUN mkdir /usr/src
 
-PWD /usr/src
+WORKDIR /usr/src
 ```
 
 As before, build it with `docker build -t first .` and then run it using `docker run -it first`
 
-But now, note the 
+But now, note the
 
