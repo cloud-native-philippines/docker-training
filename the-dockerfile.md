@@ -40,7 +40,14 @@ RUN mkdir /usr/src
 WORKDIR /usr/src
 ```
 
-As before, build it with `docker build -t first .` and then run it using `docker run -it first`
+As before, build it with `docker build -t first .`
 
-But now, note the
+When we run it this time, note the present working directory
+
+```
+$ docker run --rm -it first
+/usr/src #
+```
+
+
 
