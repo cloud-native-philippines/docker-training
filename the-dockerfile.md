@@ -21,5 +21,12 @@ Successfully built e21c333399e0
 Successfully tagged first:latest
 ```
 
+We can now use our image
+
+```
+$ docker run first
+/ #
+```
+
 
 
